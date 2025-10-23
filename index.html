@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="profile">
+        <header class="profile__header">
+          <div class="profile__avatar__wrapper">
+            <img
+              src="assets/profile.jpg"
+              class="profile__avatar"
+              loading="lazy"
+              alt="Mentor profile"
+            />
+            <img
+              src="assets/verified.svg"
+              class="verified"
+              alt="Verified Ticker"
+            />
+          </div>
+        </header>
+        <div class="profile__content">
+          <div class="profile__name">
+            <div class="profile__name__first__row">
+              <h2>Liam Weston</h2>
+              <div class="following">
+                <div class="circle"></div>
+                following
+              </div>
+            </div>
+            <p>@liam-weston</p>
+          </div>
+
+          <ul class="highlights">
+            <li class="highlight">
+              <span class="highlight__name">Followers</span> <span>15463</span>
+            </li>
+            <li class="highlight">
+              <span class="highlight__name">Following</span> <span>15</span>
+            </li>
+            <li class="highlight">
+              <span class="highlight__name">Posts</span> <span>114</span>
+            </li>
+            <li class="highlight">
+              <span class="highlight__name">Hourly Rate</span> <span>149$</span>
+            </li>
+          </ul>
+          <div class="profile__about">
+            <h3>About</h3>
+            <p>
+              I am a full-stack developer with 5 years of experience at Google.
+              I have a passion for modern web technologies and love to share my
+              knowledge with others.
+            </p>
+            <div class="profile__about__bottom">
+              <ul class="social-links">
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-brand-github"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-brand-linkedin"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+                      />
+                      <path d="M8 11l0 5" />
+                      <path d="M8 8l0 .01" />
+                      <path d="M12 16l0 -5" />
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-brand-x"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                      <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+
+              <a href="#" class="profile__location">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                  <path
+                    d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+                  />
+                </svg>
+                New York, United States
+              </a>
+            </div>
+          </div>
+
+          <div class="tabs-wrapper">
+            <ul class="tabs">
+              <li>
+                <a id="tab1" href="#work-experience">Experience</a>
+              </li>
+              <li>
+                <a id="tab2" href="#skills">Skills</a>
+              </li>
+              <li>
+                <a id="tab3" href="#reviews">Reviews</a>
+              </li>
+              <li id="active-bg"></li>
+            </ul>
+          </div>
+          <div id="tab1-content" class="tab-content tab-content--active">
+            <h3>My experiences 🧑‍💻</h3>
+            <ul class="content-links">
+              <li>
+                <a href="#">
+                  <img src="assets/google.png" class="logo" /> Google, LLC.
+                  (2020-2025)
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/apple.png" class="logo" /> Apple, Inc.
+                  (2018-2020)</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/shell.png" class="logo" /> Shell, Plc.
+                  (2016-2018)</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="tab2-content" class="tab-content">
+            <h3>My skills 🧠</h3>
+            <ul class="content-links">
+              <li>
+                <a href="#html-css">
+                  <img
+                    src="assets/html-logo.png"
+                    alt="HTML Logo"
+                    class="logo"
+                  />
+                  HTML, CSS
+                </a>
+              </li>
+              <li>
+                <a href="#javascript">
+                  <img
+                    src="assets/javascript-logo.png"
+                    alt="JavaScript"
+                    class="logo"
+                  />
+                  JavaScript
+                </a>
+              </li>
+              <li>
+                <a href="#react-and-nextjs">
+                  <img src="assets/react.png" alt="React.js" class="logo" />
+                  React and Next.js
+                </a>
+              </li>
+              <li>
+                <a href="#nodejs">
+                  <img src="assets/nodejs.png" alt="Node.js" class="logo" />
+                  Node.js (REST, GraphQL)
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="tab3-content" class="tab-content">
+            <h3>What my clients says 🚀</h3>
+
+            <ul class="reviews">
+              <li>
+                <article class="review">
+                  <div class="review__avatar">
+                    <img src="assets/jane.jpg" alt="Jane avatar" />
+                  </div>
+                  <div class="review__content">
+                    <h4>Jane Doe</h4>
+                    <p>
+                      Liam is a great mentor. He helped me to prepare for the
+                      interview and provided me with valuable feedback on my
+                      projects. I would highly recommend him to anyone who is
+                      looking for a mentor.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="review">
+                  <div class="review__avatar">
+                    <img src="assets/melissa.jpg" alt="Melissa Avatar" />
+                  </div>
+                  <div class="review__content">
+                    <h4>Melissa Doe</h4>
+                    <p>
+                      Liam is awesome at explaining complex topics in a simple
+                      way. I have learned a lot from him and would recommend him
+                      to anyone who is looking for a mentor.
+                    </p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn--primary">Book Mentoring</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
