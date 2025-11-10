@@ -82,8 +82,8 @@ body {
   gap: 0.75rem;
   min-height: 8rem;
   width: 100%;
-  background-image: url("assets/background.jpg"); /* Replace with your image path */
-  background-size: cover; /* Ensures image covers the area */
+  background-image: url("./Image/background.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
